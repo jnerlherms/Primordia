@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="OOP2_game%20Testing/src/assets/banner.png" alt="Primordia Banner" width="100%">
+<img src="OOP2_game%20Testing/src/assets/primordia_banner.png" alt="Primordia Banner" width="100%">
 
 # 🌋 PRIMORDIA 🌊
 
