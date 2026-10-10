@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Primordia: eight elemental champions lined up before a clash of fire, water, nature, lightning, wind and steel" width="100%">
+<img src="OOP2_game%20Testing/src/assets/banner.png" alt="Primordia Banner" width="100%">
 
 # PRIMORDIA
 
@@ -212,6 +212,20 @@ Every champion is **weak to two elements**. If you attack an enemy who is weak t
 > Some matchups go both ways. Thunder and Dark, and Light and Dark, can each exploit the other.
 
 ---
+
+## 📸 Screenshots
+
+<div align="center">
+
+| Main Menu | Character Select |
+|:---------:|:----------------:|
+| <img src="OOP2_game%20Testing/src/assets/main_menu.png" width="400"> | <img src="OOP2_game%20Testing/src/assets/character_selection.png" width="400"> |
+
+| Battle Screen | Victory Screen |
+|:-------------:|:--------------:|
+| <img src="OOP2_game%20Testing/src/assets/battle_screen.png" width="400"> | <img src="OOP2_game%20Testing/src/assets/victory_screen.png" width="400"> |
+
+</div>
 
 ## 🏟️ The Arenas
 
