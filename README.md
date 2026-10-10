@@ -54,9 +54,9 @@ Battles in Primordia play out in alternating turns. On your turn, you pick an ac
 
 ```
 ┌─────────────────────────────────────────────┐
-│  PLAYER 1              VS            PLAYER 2 │
-│  🔥 Ignis                           🌊 Aqua   │
-│  HP: ██████████ 100                HP: ███████░░░ 70 │
+│  PLAYER 1            VS            PLAYER 2 │
+│  🔥 Myrrik                        🌊 Ondine │
+│  HP: ██████████ 100       HP: ███████░░░ 70 │
 │                                             │
 │  [1] Attack   [2] Skill   [3] Defend        │
 └─────────────────────────────────────────────┘
@@ -93,23 +93,25 @@ Battles in Primordia play out in alternating turns. On your turn, you pick an ac
 
 <div align="center">
 
-| Portrait | Name | Element | Role | Description |
-|:--------:|:----:|:-------:|:----:|:------------|
-| <img src="assets/characters/ignis.png" width="80"> | **Ignis** | 🔥 Fire | Attacker | High damage dealer with burning attacks. |
-| <img src="assets/characters/aqua.png" width="80"> | **Aqua** | 🌊 Water | Balanced | Adaptable fighter with healing and control. |
-| <img src="assets/characters/terra.png" width="80"> | **Terra** | 🪨 Earth | Tank | Incredible defense and durability. |
-| <img src="assets/characters/zephyr.png" width="80"> | **Zephyr** | 🌪️ Wind | Speedster | Fast, evasive, and hard to pin down. |
+| Portrait | Name | Element | HP | Description |
+|:--------:|:----:|:-------:|:--:|:------------|
+| <img src="OOP2_game%20Testing/src/assets/spritesheet/Fire%20Wizard/Idle-Sheet.png" width="80"> | **Myrrik Flameheart** | 🔥 Fire | 260 | Volcanic battlemage of pressure and explosive follow-ups. |
+| <img src="OOP2_game%20Testing/src/assets/spritesheet/Water%20Wizard/Idle-Sheet.png" width="80"> | **Ondine** | 🌊 Water | 270 | Tide-channeler who controls tempo with flowing strikes and shifting barriers. |
+| <img src="OOP2_game%20Testing/src/assets/spritesheet/Nature%20Wizard/Idle-Sheet.png" width="80"> | **Earl Froggington** | 🌿 Nature | 265 | Forest tactician who controls space and saps strength. |
+| <img src="OOP2_game%20Testing/src/assets/spritesheet/Steel%20Wizard/Idle-Sheet.png" width="80"> | **Faecyrion Vhaloris** | ⚙️ Steel | 295 | Ironclad duelist using precise, punishing steel. |
+| <img src="OOP2_game%20Testing/src/assets/spritesheet/Idk%20Magician/Idle.png" width="80"> | **Caedric Thunderbound** | ⚡ Thunder | 230 | Lightning prodigy of unpredictable, high-risk storms. |
+| <img src="OOP2_game%20Testing/src/assets/spritesheet/Wind%20WIzard/Idle-Sheet.png" width="80"> | **Ali Morningstart** | 🌪️ Wind | 250 | Gust incarnate; quick, precise, and disruptive. |
+| <img src="OOP2_game%20Testing/src/assets/spritesheet/Light%20Mage/Idle-Sheet.png" width="80"> | **Gwyneth Verdantide** | ✨ Light | 310 | Temple guardian blending bladework with restorative light. |
+| <img src="OOP2_game%20Testing/src/assets/spritesheet/Dark%20Wizard/Idle-Sheet.png" width="80"> | **Yuri Moonshade** | 🌑 Dark | 255 | Shadow-touched sorceress of corrosive soul-thread magic. |
 
 </div>
 
-### 🔥 Ignis, the Flame Warden
-| Skill | Effect |
-|-------|--------|
-| **Ember Strike** | Basic fire attack. |
-| **Inferno Burst** | Heavy fire damage. |
-| **Flame Shield** | Reduces incoming damage for a turn. |
-
-> 📝 *Replace these with your real characters and skills. Duplicate this block for each character.*
+### 🔥 Myrrik Flameheart
+| Skill | Type | Effect |
+|-------|:----:|--------|
+| **Blaze Saber** | Damage | Cuts through one enemy with a burning sword arc. |
+| **Fireball** | Damage | Launches a fiery projectile that deals balanced fire damage. |
+| **Flame Jet** | Damage | Unleashes a jet of flame that scorches one enemy and heals the caster. |
 
 ---
 
@@ -119,19 +121,19 @@ Battles in Primordia play out in alternating turns. On your turn, you pick an ac
 
 | Main Menu | Character Select |
 |:---------:|:----------------:|
-| <img src="assets/screenshots/menu.png" width="400"> | <img src="assets/screenshots/select.png" width="400"> |
+| <img src="OOP2_game%20Testing/src/assets/main_menu.png" width="400"> | <img src="OOP2_game%20Testing/src/assets/character_selection.png" width="400"> |
 
 | Battle Screen | Victory Screen |
 |:-------------:|:--------------:|
-| <img src="assets/screenshots/battle.png" width="400"> | <img src="assets/screenshots/victory.png" width="400"> |
+| <img src="OOP2_game%20Testing/src/assets/battle_screen.png" width="400"> | <img src="OOP2_game%20Testing/src/assets/victory_screen.png" width="400"> |
 
 </div>
 
-### 🎬 Demo
+### 🎬 Title Screen
 
 <div align="center">
 
-<img src="assets/demo.gif" alt="Primordia Gameplay Demo" width="700">
+<img src="OOP2_game%20Testing/src/assets/maps/splashscreen.png" alt="Primordia Title Screen" width="700">
 
 </div>
 
