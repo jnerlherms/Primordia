@@ -51,15 +51,15 @@ A turn-based elemental battle game written in **Java**.
 Battles in Primordia play out in alternating turns. On your turn, you pick an action; then your opponent responds.
 
 ```
-┌──────────────────────────────────────────────┐
-│  PLAYER 1            VS            PLAYER 2  │
-┌──────────────────────────────────────────────┐
-│  PLAYER 1            VS            PLAYER 2  │
-│  🔥 Myrrik                        🌊 Ondine │
-│  HP: ██████████ 100       HP: ███████░░░ 70  │
-│                                              │
-│  [1] Attack   [2] Skill   [3] Defend         │
-└──────────────────────────────────────────────┘
+                    ┌──────────────────────────────────────────────┐
+                    │  PLAYER 1            VS            PLAYER 2  │
+                    ┌──────────────────────────────────────────────┐
+                    │  PLAYER 1            VS            PLAYER 2  │
+                    │  🔥 Myrrik                        🌊 Ondine │
+                    │  HP: ██████████ 100       HP: ████████░░ 70  │
+                    │                                              │
+                    │  [1] Skill 1   [2] Skill 2  [3] Skill 3      │
+                    └──────────────────────────────────────────────┘
 ```
 
 </div>
